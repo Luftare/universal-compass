@@ -1,0 +1,35 @@
+{
+  "name": "universal-compass",
+  "version": "1.0.0",
+  "description": "Cross-platform web compass listener for iOS and Android",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "release": "npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Luftare/universal-compass"
+  },
+  "keywords": [
+    "compass",
+    "heading",
+    "orientation",
+    "navigation",
+    "geolocation",
+    "location",
+    "deviceorientation",
+    "ios",
+    "android",
+    "javascript",
+    "typescript",
+    "sensor"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.8.2"
+  }
+}
