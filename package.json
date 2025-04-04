@@ -1,7 +1,7 @@
 {
   "name": "universal-compass",
   "version": "1.0.0",
-  "description": "Cross-platform web compass listener for iOS and Android",
+  "description": "iOS + Android compass heading with unified reading",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
